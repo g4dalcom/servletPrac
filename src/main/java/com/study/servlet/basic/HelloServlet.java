@@ -1,6 +1,5 @@
 package com.study.servlet.basic;
 
-import javax.lang.model.SourceVersion;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,7 +9,7 @@ import java.io.IOException;
 
 
 @WebServlet(name = "helloSevlet", urlPatterns = "/hello")
-public class HelloSevlet extends HttpServlet {
+public class HelloServlet extends HttpServlet {
 
     // Ctrl + O 누른 후 자물쇠 아이콘 service
     @Override
